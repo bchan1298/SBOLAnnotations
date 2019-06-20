@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:gbConv="http://sbols.org/genBankConversion#"
+   xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#"
+   xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#">
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/BBa_K808000/1">
+    <dcterms:description>araC-Pbad - Arabinose inducible regulatory promoter/repressor unit</dcterms:description>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BBa_K808000/component0/1">
+        <dcterms:title>CDS_seq</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/ComponentDefinition/CDS/"/>
+        <sbol:displayId>component0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/component0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BBa_K808000/component3/1">
+        <dcterms:title>promoter</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/ComponentDefinition/promoter/"/>
+        <sbol:displayId>component3</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/component3"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>BBa_K808000</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/BBa_K808000_seq/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BBa_K808000/annotation0/1">
+        <dcterms:title>CDS</dcterms:title>
+        <sbol:component rdf:resource="https://bu.edu/ben/BBa_K808000/component0/1"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BBa_K808000/annotation0/range/1">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>879</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/annotation0/range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/annotation0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BBa_K808000/annotation1/1">
+        <dcterms:title>misc_feature</dcterms:title>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BBa_K808000/annotation1/range/1">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>924</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/annotation1/range"/>
+            <sbol:start>909</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/annotation1"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000001"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BBa_K808000/annotation2/1">
+        <dcterms:title>misc_feature</dcterms:title>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BBa_K808000/annotation2/range/1">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>1077</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/annotation2/range"/>
+            <sbol:start>1066</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/annotation2"/>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000001"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BBa_K808000/annotation3/1">
+        <dcterms:title>promoter</dcterms:title>
+        <sbol:component rdf:resource="https://bu.edu/ben/BBa_K808000/component3/1"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BBa_K808000/annotation3/range/1">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>1181</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/annotation3/range"/>
+            <sbol:start>1153</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000/annotation3"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+    <genbank:division>UNK</genbank:division>
+    <genbank:locus>BBa_K808000</genbank:locus>
+    <genbank:molecule>DNA</genbank:molecule>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/BBa_K808000_seq/1">
+    <sbol:displayId>BBa_K808000_seq</sbol:displayId>
+    <sbol:elements>ttatgacaacttgacggctacatcattcactttttcttcacaaccggcacggaactcgctcgggctggccccggtgcattttttaaatacccgcgagaaatagagttgatcgtcaaaaccaacattgcgaccgacggtggcgataggcatccgggtggtgctcaaaagcagcttcgcctggctgatacgttggtcctcgcgccagcttaagacgctaatccctaactgctggcggaaaagatgtgacagacgcgacggcgacaagcaaacatgctgtgcgacgctggcgatatcaaaattgctgtctgccaggtgatcgctgatgtactgacaagcctcgcgtacccgattatccatcggtggatggagcgactcgttaatcgcttccatgcgccgcagtaacaattgctcaagcagatttatcgccagcagctccgaatagcgcccttccccttgcccggcgttaatgatttgcccaaacaggtcgctgaaatgcggctggtgcgcttcatccgggcgaaagaaccccgtattggcaaatattgacggccagttaagccattcatgccagtaggcgcgcggacgaaagtaaacccactggtgataccattcgcgagcctccggatgacgaccgtagtgatgaatctctcctggcgggaacagcaaaatatcacccggtcggcaaacaaattctcgtccctgatttttcaccaccccctgaccgcgaatggtgagattgagaatataacctttcattcccagcggtcggtcgataaaaaaatcgagataaccgttggcctcaatcggcgttaaacccgccaccagatgggcattaaacgagtatcccggcagcaggggatcattttgcgcttcagccatacttttcatactcccgccattcagagaagaaaccaattgtccatattgcatcagacattgccgtcactgcgtcttttactggctcttctcgctaaccaaaccggtaaccccgcttattaaaagcattctgtaacaaagcgggaccaaagccatgacaaaaacgcgtaacaaaagtgtctataatcacggcagaaaagtccacattgattatttgcacggcgtcacactttgctatgccatagcatttttatccataagattagcggatcctacctgacgctttttatcgcaactctctactgtttctccatacccgttttttgggctaac</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BBa_K808000_seq"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/ComponentDefinition/AraC/1.0.0">
+    <sbol:displayId>AraC</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ComponentDefinition/AraC"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/ComponentDefinition/CDS/">
+    <dcterms:title>CDS</dcterms:title>
+    <sbol:displayId>CDS</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ComponentDefinition/CDS"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/Sequence/component0_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/ComponentDefinition/promoter/">
+    <dcterms:title>promoter</dcterms:title>
+    <sbol:displayId>promoter</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ComponentDefinition/promoter"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/Sequence/component3_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ModuleDefinition rdf:about="https://bu.edu/ben/ModuleDefinition/md0/1.0.0">
+    <sbol:displayId>md0</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="https://bu.edu/ben/ModuleDefinition/md0/AraC/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/ComponentDefinition/AraC/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>AraC</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/AraC"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="https://bu.edu/ben/ModuleDefinition/md0/CDS/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/ComponentDefinition/CDS/"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>CDS</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/CDS"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="https://bu.edu/ben/ModuleDefinition/md0/template/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/BBa_K808000/1"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>template</sbol:displayId>
+        <sbol:mapsTo>
+          <sbol:MapsTo rdf:about="https://bu.edu/ben/ModuleDefinition/md0/template/map/1.0.0">
+            <sbol:displayId>map</sbol:displayId>
+            <sbol:local rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/CDS/1.0.0"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/template/map"/>
+            <sbol:refinement rdf:resource="http://sbols.org/v2#useLocal"/>
+            <sbol:remote rdf:resource="https://bu.edu/ben/BBa_K808000/component0/1"/>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:MapsTo>
+        </sbol:mapsTo>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/template"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="https://bu.edu/ben/ModuleDefinition/md0/production/1.0.0">
+        <sbol:displayId>production</sbol:displayId>
+        <sbol:participation>
+          <sbol:Participation rdf:about="https://bu.edu/ben/ModuleDefinition/md0/production/product/1.0.0">
+            <sbol:displayId>product</sbol:displayId>
+            <sbol:participant rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/AraC/1.0.0"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/production/product"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:participation>
+          <sbol:Participation rdf:about="https://bu.edu/ben/ModuleDefinition/md0/production/template/1.0.0">
+            <sbol:displayId>template</sbol:displayId>
+            <sbol:participant rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/CDS/1.0.0"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/production/template"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000645"/>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ModuleDefinition/md0/production"/>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ModuleDefinition/md0"/>
+    <sbol:version>1.0.0</sbol:version>
+    <ns1:annotation xmlns:ns1="https://bu.edu/ben/ModuleDefinition/md0/1.0.0#">This is a test annotation.</ns1:annotation>
+  </sbol:ModuleDefinition>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/Sequence/component0_sequence/">
+    <sbol:displayId>component0_sequence</sbol:displayId>
+    <sbol:elements>ttatgacaacttgacggctacatcattcactttttcttcacaaccggcacggaactcgctcgggctggccccggtgcattttttaaatacccgcgagaaatagagttgatcgtcaaaaccaacattgcgaccgacggtggcgataggcatccgggtggtgctcaaaagcagcttcgcctggctgatacgttggtcctcgcgccagcttaagacgctaatccctaactgctggcggaaaagatgtgacagacgcgacggcgacaagcaaacatgctgtgcgacgctggcgatatcaaaattgctgtctgccaggtgatcgctgatgtactgacaagcctcgcgtacccgattatccatcggtggatggagcgactcgttaatcgcttccatgcgccgcagtaacaattgctcaagcagatttatcgccagcagctccgaatagcgcccttccccttgcccggcgttaatgatttgcccaaacaggtcgctgaaatgcggctggtgcgcttcatccgggcgaaagaaccccgtattggcaaatattgacggccagttaagccattcatgccagtaggcgcgcggacgaaagtaaacccactggtgataccattcgcgagcctccggatgacgaccgtagtgatgaatctctcctggcgggaacagcaaaatatcacccggtcggcaaacaaattctcgtccctgatttttcaccaccccctgaccgcgaatggtgagattgagaatataacctttcattcccagcggtcggtcgataaaaaaatcgagataaccgttggcctcaatcggcgttaaacccgccaccagatgggcattaaacgagtatcccggcagcaggggatcattttgcgcttcagccat</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/Sequence/component0_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/Sequence/component3_sequence/">
+    <sbol:displayId>component3_sequence</sbol:displayId>
+    <sbol:elements>ctgacgctttttatcgcaactctctactg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/Sequence/component3_sequence"/>
+  </sbol:Sequence>
+</rdf:RDF>

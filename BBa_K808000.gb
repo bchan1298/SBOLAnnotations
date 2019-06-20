@@ -1,0 +1,32 @@
+LOCUS       BBa_K808000             1209 bp    DNA     linear   UNK 04-Jun-2019
+DEFINITION  araC-Pbad - Arabinose inducible regulatory promoter/repressor unit
+ACCESSION   BBa_K808000
+VERSION     BBa_K808000.1  
+FEATURES             Location/Qualifiers
+     CDS             1..879
+     misc_feature    909..924
+     misc_feature    1066..1077
+     promoter        1153..1181
+ORIGIN
+        1 ttatgacaac ttgacggcta catcattcac tttttcttca caaccggcac ggaactcgct
+       61 cgggctggcc ccggtgcatt ttttaaatac ccgcgagaaa tagagttgat cgtcaaaacc
+      121 aacattgcga ccgacggtgg cgataggcat ccgggtggtg ctcaaaagca gcttcgcctg
+      181 gctgatacgt tggtcctcgc gccagcttaa gacgctaatc cctaactgct ggcggaaaag
+      241 atgtgacaga cgcgacggcg acaagcaaac atgctgtgcg acgctggcga tatcaaaatt
+      301 gctgtctgcc aggtgatcgc tgatgtactg acaagcctcg cgtacccgat tatccatcgg
+      361 tggatggagc gactcgttaa tcgcttccat gcgccgcagt aacaattgct caagcagatt
+      421 tatcgccagc agctccgaat agcgcccttc cccttgcccg gcgttaatga tttgcccaaa
+      481 caggtcgctg aaatgcggct ggtgcgcttc atccgggcga aagaaccccg tattggcaaa
+      541 tattgacggc cagttaagcc attcatgcca gtaggcgcgc ggacgaaagt aaacccactg
+      601 gtgataccat tcgcgagcct ccggatgacg accgtagtga tgaatctctc ctggcgggaa
+      661 cagcaaaata tcacccggtc ggcaaacaaa ttctcgtccc tgatttttca ccaccccctg
+      721 accgcgaatg gtgagattga gaatataacc tttcattccc agcggtcggt cgataaaaaa
+      781 atcgagataa ccgttggcct caatcggcgt taaacccgcc accagatggg cattaaacga
+      841 gtatcccggc agcaggggat cattttgcgc ttcagccata cttttcatac tcccgccatt
+      901 cagagaagaa accaattgtc catattgcat cagacattgc cgtcactgcg tcttttactg
+      961 gctcttctcg ctaaccaaac cggtaacccc gcttattaaa agcattctgt aacaaagcgg
+     1021 gaccaaagcc atgacaaaaa cgcgtaacaa aagtgtctat aatcacggca gaaaagtcca
+     1081 cattgattat ttgcacggcg tcacactttg ctatgccata gcatttttat ccataagatt
+     1141 agcggatcct acctgacgct ttttatcgca actctctact gtttctccat acccgttttt
+     1201 tgggctaac
+//

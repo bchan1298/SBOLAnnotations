@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:gbConv="http://sbols.org/genBankConversion#"
+   xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#"
+   xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#">
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/AmpR/">
+    <dcterms:title>AmpR</dcterms:title>
+    <sbol:displayId>AmpR</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/AmpR"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/component4_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/AmpR_Promoter/">
+    <dcterms:title>AmpR Promoter</dcterms:title>
+    <sbol:displayId>AmpR_Promoter</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/AmpR_Promoter"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/component3_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/BW462_pCag_BFP">
+    <dcterms:description>.</dcterms:description>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BW462_pCag_BFP/component0/">
+        <dcterms:title>Rabbit Beta Globin pA</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/Rabbit_Beta_Globin_pA/"/>
+        <sbol:displayId>component0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BW462_pCag_BFP/component1/">
+        <dcterms:title>SV40 ori</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/SV40_ori/"/>
+        <sbol:displayId>component1</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component1"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BW462_pCag_BFP/component2/">
+        <dcterms:title>SV40pA</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/SV40pA/"/>
+        <sbol:displayId>component2</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component2"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BW462_pCag_BFP/component3/">
+        <dcterms:title>AmpR Promoter</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/AmpR_Promoter/"/>
+        <sbol:displayId>component3</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component3"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BW462_pCag_BFP/component4/">
+        <dcterms:title>AmpR</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/AmpR/"/>
+        <sbol:displayId>component4</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component4"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BW462_pCag_BFP/component5/">
+        <dcterms:title>mtagBFP</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/mtagBFP/"/>
+        <sbol:displayId>component5</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component5"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BW462_pCag_BFP/component6/">
+        <dcterms:title>ori</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/ori/"/>
+        <sbol:displayId>component6</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component6"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://bu.edu/ben/BW462_pCag_BFP/component7/">
+        <dcterms:title>CAG Promoter</dcterms:title>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/CAG_Promoter/"/>
+        <sbol:displayId>component7</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component7"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>BW462_pCag_BFP</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/BW462_pCag_BFP_seq"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation0">
+        <dcterms:title>Rabbit Beta Globin pA</dcterms:title>
+        <gbConv:ApEinfo_fwdcolor>#ffef86</gbConv:ApEinfo_fwdcolor>
+        <gbConv:ApEinfo_revcolor>#ffef86</gbConv:ApEinfo_revcolor>
+        <gbConv:label>Rabbit Beta Globin pA</gbConv:label>
+        <sbol:component rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component0/"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation0/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>4005</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation0/range"/>
+            <sbol:start>3469</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation0"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation1">
+        <dcterms:title>SV40 ori</dcterms:title>
+        <gbConv:ApEinfo_fwdcolor>#ffef86</gbConv:ApEinfo_fwdcolor>
+        <gbConv:ApEinfo_revcolor>#ffef86</gbConv:ApEinfo_revcolor>
+        <gbConv:label>SV40 ori</gbConv:label>
+        <sbol:component rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component1/"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation1/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>4360</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation1/range"/>
+            <sbol:start>4226</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation2">
+        <dcterms:title>SV40pA</dcterms:title>
+        <gbConv:ApEinfo_fwdcolor>#ffef86</gbConv:ApEinfo_fwdcolor>
+        <gbConv:ApEinfo_revcolor>#ffef86</gbConv:ApEinfo_revcolor>
+        <gbConv:label>SV40pA</gbConv:label>
+        <sbol:component rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component2/"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation2/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>4514</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation2/range"/>
+            <sbol:start>4380</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation2"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation3">
+        <dcterms:title>AmpR Promoter</dcterms:title>
+        <gbConv:ApEinfo_fwdcolor>#333333</gbConv:ApEinfo_fwdcolor>
+        <gbConv:ApEinfo_revcolor>#333333</gbConv:ApEinfo_revcolor>
+        <gbConv:label>AmpR Promoter</gbConv:label>
+        <sbol:component rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component3/"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation3/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>966</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation3/range"/>
+            <sbol:start>862</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation3"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation4">
+        <dcterms:title>AmpR</dcterms:title>
+        <gbConv:ApEinfo_fwdcolor>#b4abac</gbConv:ApEinfo_fwdcolor>
+        <gbConv:ApEinfo_revcolor>#b4abac</gbConv:ApEinfo_revcolor>
+        <gbConv:label>AmpR</gbConv:label>
+        <sbol:component rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component4/"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation4/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>861</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation4/range"/>
+            <sbol:start>1</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation4"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation5">
+        <dcterms:title>mtagBFP</dcterms:title>
+        <gbConv:ApEinfo_fwdcolor>#0000ff</gbConv:ApEinfo_fwdcolor>
+        <gbConv:ApEinfo_revcolor>#0000ff</gbConv:ApEinfo_revcolor>
+        <gbConv:label>mtagBFP</gbConv:label>
+        <sbol:component rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component5/"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation5/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>3460</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation5/range"/>
+            <sbol:start>2759</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation5"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation6">
+        <dcterms:title>ori</dcterms:title>
+        <gbConv:ApEinfo_fwdcolor>#ffef86</gbConv:ApEinfo_fwdcolor>
+        <gbConv:ApEinfo_revcolor>#ffef86</gbConv:ApEinfo_revcolor>
+        <gbConv:label>ori</gbConv:label>
+        <sbol:component rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component6/"/>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation6/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>5341</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation6/range"/>
+            <sbol:start>4753</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation6"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation7">
+        <dcterms:title>CAG Promoter</dcterms:title>
+        <gbConv:ApEinfo_fwdcolor>#008080</gbConv:ApEinfo_fwdcolor>
+        <gbConv:ApEinfo_revcolor>#008080</gbConv:ApEinfo_revcolor>
+        <gbConv:label>CAG Promoter</gbConv:label>
+        <sbol:component rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component7/"/>
+        <sbol:displayId>annotation7</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://bu.edu/ben/BW462_pCag_BFP/annotation7/range">
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:end>2717</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation7/range"/>
+            <sbol:start>1011</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/annotation7"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <genbank:division>03-JUN-2019</genbank:division>
+    <genbank:locus>BW462_pCag-BFP</genbank:locus>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/BW462_pCag_BFP_seq">
+    <sbol:displayId>BW462_pCag_BFP_seq</sbol:displayId>
+    <sbol:elements>TTACCAATGCTTAATCAGTGAGGCACCTATCTCAGCGATCTGTCTATTTCGTTCATCCATAGTTGCCTGACTCCCCGTCGTGTAGATAACTACGATACGGGAGGGCTTACCATCTGGCCCCAGTGCTGCAATGATACCGCGAGACCCACGCTCACCGGCTCCAGATTTATCAGCAATAAACCAGCCAGCCGGAAGGGCCGAGCGCAGAAGTGGTCCTGCAACTTTATCCGCCTCCATCCAGTCTATTAATTGTTGCCGGGAAGCTAGAGTAAGTAGTTCGCCAGTTAATAGTTTGCGCAACGTTGTTGCCATTGCTACAGGCATCGTGGTGTCACGCTCGTCGTTTGGTATGGCTTCATTCAGCTCCGGTTCCCAACGATCAAGGCGAGTTACATGATCCCCCATGTTGTGCAAAAAAGCGGTTAGCTCCTTCGGTCCTCCGATCGTTGTCAGAAGTAAGTTGGCCGCAGTGTTATCACTCATGGTTATGGCAGCACTGCATAATTCTCTTACTGTCATGCCATCCGTAAGATGCTTTTCTGTGACTGGTGAGTACTCAACCAAGTCATTCTGAGAATAGTGTATGCGGCGACCGAGTTGCTCTTGCCCGGCGTCAATACGGGATAATACCGCGCCACATAGCAGAACTTTAAAAGTGCTCATCATTGGAAAACGTTCTTCGGGGCGAAAACTCTCAAGGATCTTACCGCTGTTGAGATCCAGTTCGATGTAACCCACTCGTGCACCCAACTGATCTTCAGCATCTTTTACTTTCACCAGCGTTTCTGGGTGAGCAAAAACAGGAAGGCAAAATGCCGCAAAAAAGGGAATAAGGGCGACACGGAAATGTTGAATACTCATACTCTTCCTTTTTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTCATGAGCGGATACATATTTGAATGTATTTAGAAAAATAAACAAATAGGGGTTCCGCGCACATTTCCCCGAAAAGTGCCACCTGGgTCGACATTGATTATTGACTAGTTATTAATAGTAATCAATTACGGGGTCATTAGTTCATAGCCCATATATGGAGTTCCGCGTTACATAACTTACGGTAAATGGCCCGCCTGGCTGACCGCCCAACGACCCCCGCCCATTGACGTCAATAATGACGTATGTTCCCATAGTAACGCCAATAGGGACTTTCCATTGACGTCAATGGGTGGAgTATTTACGGTAAACTGCCCACTTGGCAGTACATCAAGTGTATCATATGCCAAGTACGCCCCCTATTGACGTCAATGACGGTAAATGGCCCGCCTGGCATTATGCCCAGTACATGACCTTATGGGACTTTCCTACTTGGCAGTACATCTACGTATTAGTCATCGCTATTACCATGGTCGAGGTGAGCCCCACGTTCTGCTTCACTCTCCCCATCTCCCCCCCCTCCCCACCCCCAATTTTGTATTTATTTATTTTTTAATTATTTTGTGCAGCGATGGGGGCGGGGGGGGGGGGGGCGCGCGCCAGGCGGGGCGGGGCGGGGCGAGGGGCGGGGCGGGGCGAGGCGGAaAGGTGCGGCGGCAGCCAATCAGAGCGGCGCGCTCCGAAAGTTTCCTTTTATGGCGAGGCGGCGGCGGCGGCGGCCCTATAAAAAGCGAAGCGCGCGGCGGGCGGGAGTCGCTGCGTTGCCTTCGCCCCGTGCCCCGCTCCGCGCCGCCTCGCGCCGCCCGCCCCGGCTCTGACTGACCGCGTTACTCCCACAGGTGAGCGGGCGGGACGGCCCTTCTCCTCCGGGCTGTAATTAGCGCTTGGTTTAATGACGGCTCGTTTCTTTTCTGTGGCTGCGTGAAAGCCTTAAAGGGCTCCGGGAGGGCCCTTTGTGCGGGGGGGAGCGGCTCGGGGGGTGCGTGCGTGTGTGTGTGCGTGGGGAGCGCCGCGTGCGGCtCCGCGCTGCCCGGCGGCTGTGAGCGCTGCGGGCGCGGCGCGGGGCTTTGTGCGCTCCGCagTGTGCGCGAGGGGAGCGCGGCCGGGGGCGGTGCCCCGCGGTGCGgGGGGGGCTGCGAGGGGAACAAAGGCTGCGTGCGGGGTGTGTGCGTGGGGGGGTGAGCAGGGGGTGTGGGCGCGGCGGTCGGGCTGTAACCCCCCCCTGCACCCCCCTCCCCGAGTTGCTGAGCACGGCCCGGCTTCGGGTGCGGGGCTCCGTaCGGGGCGTGGCGCGGGGCTCGCCGTGCCGGGCGGGGGGTGGCGGCAGGTGGGGGTGCCGGGCGGGGCGGGGCCGCCTCGGGCCGGGGAGGGCTCGGGGGAGGGGCGCGGCGGCCCCcGGAGCGCCGGCGGCTGTCGAGGCGCGGCGAGCCGCAGCCATTGCCTTTTATGGTAATCGTGCGAGAGGGCGCAGGGACTTCCTTTGTCCCAAATCTGtGCGGAGCCGAAATCTGGGAGGCGCCGCCGCACCCCCTCTAGCGGGCGCGGGgCGAAGCGGTGCGGCGCCGGCAGGAAGGAAATGGGCGGGGAGGGCCTTCGTGCGTCGCCGCGCCGCCGTCCCCTTCTCCcTCTCCAGCCTCGGGGCTGtCCGCgGGGGGACGGCTGCCTTCGGGGGGGACGGGGCAGGGCGGGGTTCGGCTTCTGGCGTGTGACCGGCGGCTCTAGAGCCTCTGCTAACCATGTTCATGCCTTCTTCTTTTTCCTACAGCTCCTGGGCAACGTGCTGGTTATTGTGCTGTCTCATCATTTTGGCAAAGAATTGATTAATTCGAGCGAACGCGTaccggtGCCGCCACCatgAGCGAGCTGATTAAGGAGAACATGCACATGAAGCTGTACATGGAGGGCACCGTGGACAACCATCACTTCAAGTGCACATCCGAGGGCGAAGGCAAGCCCTACGAGGGCACCCAGACCATGAGAATCAAGGTGGTCGAGGGCGGCCCTCTCCCCTTCGCCTTCGACATCCTGGCTACTAGCTTCCTCTACGGCAGCAAGACCTTCATCAACCACACCCAGGGCATCCCCGACTTCTTCAAGCAGTCCTTCCCTGAGGGCTTCACATGGGAGAGAGTCACCACATACGAAGACGGGGGCGTGCTGACCGCTACCCAGGACACCAGCCTCCAGGACGGCTGCCTCATCTACAACGTCAAGATCAGAGGGGTGAACTTCACATCCAACGGCCCTGTGATGCAGAAGAAAACACTCGGCTGGGAGGCCTTCACCGAGACGCTGTACCCCGCTGACGGCGGCCTGGAAGGCAGAAACGACATGGCCCTGAAGCTCGTGGGCGGGAGCCATCTGATCGCAAACATCAAGACCACATATAGATCCAAGAAACCCGCTAAGAACCTCAAGATGCCTGGCGTCTACTATGTGGACTACAGACTGGAAAGAATCAAGGAGGCCAACAACGAGACCTACGTCGAGCAGCACGAGGTGGCAGTGGCCAGATACTGCGACCTCCCTAGCAAACTGGGGCACAAGCTTAATtaaGCGGCCGCACTCCTCAGGTGCAGGCTGCCTATCAGAAGGTGGTGGCTGGTGTGGCCAATGCCCTGGCTCACAAATACCACTGAGATCTTTTTCCCTCTGCCAAAAATTATGGGGACATCATGAAGCCCCTTGAGCATCTGACTTCTGGCTAATAAAGGAAATTTATTTTCATTGCAATAGTGTGTTGGAATTTTTTGTGTCTCTCACTCGGAAGGACATATGGGAGGGCAAATCATTTAAAACATCAGAATGAGTATTTGGTTTAGAGTTTGGCAACATATGCCCATATGCTGGCTGCCATGAACAAAGGTTGGCTATAAAGAGGTCATCAGTATATGAAACAGCCCCCTGCTGTCCATTCCTTATTCCATAGAAAAGCCTTGACTTGAGGTTAGATTTTTTTTATATTTTGTTTTGTGTTATTTTTTTCTTTAACATCCCTAAAATTTTCCTTACATGTTTTACTAGCCAGATTTTTCCTCCTCTCCTGACTACTCCCAGTCATAGCTGTCCCTCTTCTCTTATGGAGATCCCTCGACCTGCAGCCCAAGCTTGGCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGTCGGGAAACCTGTCGTGCCAGCGGATCCGCATCTCAATTAGTCAGCAACCATAGTCCCGCCCCTAACTCCGCCCAGTTCCGCCCATTCTCCGCCCCATGGCTGACTAATTTTTTTTATTTATGCAGAGGCCGAGGCCGCCTCGGCCTCTGAGCTATTCCAGAAGTAGTGAGGAGGCTTTTTTGGAGGCCTAGGCTTTTGCAAAAAGCTAACTTGTTTATTGCAGCTTATAATGGTTACAAATAAAGCAATAGCATCACAAATTTCACAAATAAAGCATTTTTTTCACTGCATTCTAGTTGTGGTTTGTCCAAACTCATCAATGTATCTTATCATGTCTGGATCCGCTGCATTAATGAATCGGCCAACGCGCGGGGAGAGGCGGTTTGCGTATTGGGCGCTCTTCCGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCAtaGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGaACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGAGATTATCAAAAAGGATCTTCACCTAGATCCTTTTAAATTAAAAATGAAGTTTTAAATCAATCTAAAGTATATATGAGTAAACTTGGTCTGACAG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/BW462_pCag_BFP_seq"/>
+  </sbol:Sequence>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/CAG_Promoter/">
+    <dcterms:title>CAG Promoter</dcterms:title>
+    <sbol:displayId>CAG_Promoter</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/CAG_Promoter"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/component7_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/Rabbit_Beta_Globin_pA/">
+    <dcterms:title>Rabbit Beta Globin pA</dcterms:title>
+    <sbol:displayId>Rabbit_Beta_Globin_pA</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/Rabbit_Beta_Globin_pA"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000551"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/component0_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/SV40_ori/">
+    <dcterms:title>SV40 ori</dcterms:title>
+    <sbol:displayId>SV40_ori</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/SV40_ori"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/component1_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/SV40pA/">
+    <dcterms:title>SV40pA</dcterms:title>
+    <sbol:displayId>SV40pA</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/SV40pA"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000551"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/component2_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/component0_sequence/">
+    <sbol:displayId>component0_sequence</sbol:displayId>
+    <sbol:elements>ACTCCTCAGGTGCAGGCTGCCTATCAGAAGGTGGTGGCTGGTGTGGCCAATGCCCTGGCTCACAAATACCACTGAGATCTTTTTCCCTCTGCCAAAAATTATGGGGACATCATGAAGCCCCTTGAGCATCTGACTTCTGGCTAATAAAGGAAATTTATTTTCATTGCAATAGTGTGTTGGAATTTTTTGTGTCTCTCACTCGGAAGGACATATGGGAGGGCAAATCATTTAAAACATCAGAATGAGTATTTGGTTTAGAGTTTGGCAACATATGCCCATATGCTGGCTGCCATGAACAAAGGTTGGCTATAAAGAGGTCATCAGTATATGAAACAGCCCCCTGCTGTCCATTCCTTATTCCATAGAAAAGCCTTGACTTGAGGTTAGATTTTTTTTATATTTTGTTTTGTGTTATTTTTTTCTTTAACATCCCTAAAATTTTCCTTACATGTTTTACTAGCCAGATTTTTCCTCCTCTCCTGACTACTCCCAGTCATAGCTGTCCCTCTTCTCTTATGGAGATCCCTCGACCTGCAG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/component0_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/component1_sequence/">
+    <sbol:displayId>component1_sequence</sbol:displayId>
+    <sbol:elements>TCCCGCCCCTAACTCCGCCCAGTTCCGCCCATTCTCCGCCCCATGGCTGACTAATTTTTTTTATTTATGCAGAGGCCGAGGCCGCCTCGGCCTCTGAGCTATTCCAGAAGTAGTGAGGAGGCTTTTTTGGAGGCC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/component1_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/component2_sequence/">
+    <sbol:displayId>component2_sequence</sbol:displayId>
+    <sbol:elements>AACTTGTTTATTGCAGCTTATAATGGTTACAAATAAAGCAATAGCATCACAAATTTCACAAATAAAGCATTTTTTTCACTGCATTCTAGTTGTGGTTTGTCCAAACTCATCAATGTATCTTATCATGTCTGGATC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/component2_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/component3_sequence/">
+    <sbol:displayId>component3_sequence</sbol:displayId>
+    <sbol:elements>ACTCTTCCTTTTTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTCATGAGCGGATACATATTTGAATGTATTTAGAAAAATAAACAAATAGGGGTTCCGCG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/component3_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/component4_sequence/">
+    <sbol:displayId>component4_sequence</sbol:displayId>
+    <sbol:elements>TTACCAATGCTTAATCAGTGAGGCACCTATCTCAGCGATCTGTCTATTTCGTTCATCCATAGTTGCCTGACTCCCCGTCGTGTAGATAACTACGATACGGGAGGGCTTACCATCTGGCCCCAGTGCTGCAATGATACCGCGAGACCCACGCTCACCGGCTCCAGATTTATCAGCAATAAACCAGCCAGCCGGAAGGGCCGAGCGCAGAAGTGGTCCTGCAACTTTATCCGCCTCCATCCAGTCTATTAATTGTTGCCGGGAAGCTAGAGTAAGTAGTTCGCCAGTTAATAGTTTGCGCAACGTTGTTGCCATTGCTACAGGCATCGTGGTGTCACGCTCGTCGTTTGGTATGGCTTCATTCAGCTCCGGTTCCCAACGATCAAGGCGAGTTACATGATCCCCCATGTTGTGCAAAAAAGCGGTTAGCTCCTTCGGTCCTCCGATCGTTGTCAGAAGTAAGTTGGCCGCAGTGTTATCACTCATGGTTATGGCAGCACTGCATAATTCTCTTACTGTCATGCCATCCGTAAGATGCTTTTCTGTGACTGGTGAGTACTCAACCAAGTCATTCTGAGAATAGTGTATGCGGCGACCGAGTTGCTCTTGCCCGGCGTCAATACGGGATAATACCGCGCCACATAGCAGAACTTTAAAAGTGCTCATCATTGGAAAACGTTCTTCGGGGCGAAAACTCTCAAGGATCTTACCGCTGTTGAGATCCAGTTCGATGTAACCCACTCGTGCACCCAACTGATCTTCAGCATCTTTTACTTTCACCAGCGTTTCTGGGTGAGCAAAAACAGGAAGGCAAAATGCCGCAAAAAAGGGAATAAGGGCGACACGGAAATGTTGAATACTCAT</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/component4_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/component5_sequence/">
+    <sbol:displayId>component5_sequence</sbol:displayId>
+    <sbol:elements>atgAGCGAGCTGATTAAGGAGAACATGCACATGAAGCTGTACATGGAGGGCACCGTGGACAACCATCACTTCAAGTGCACATCCGAGGGCGAAGGCAAGCCCTACGAGGGCACCCAGACCATGAGAATCAAGGTGGTCGAGGGCGGCCCTCTCCCCTTCGCCTTCGACATCCTGGCTACTAGCTTCCTCTACGGCAGCAAGACCTTCATCAACCACACCCAGGGCATCCCCGACTTCTTCAAGCAGTCCTTCCCTGAGGGCTTCACATGGGAGAGAGTCACCACATACGAAGACGGGGGCGTGCTGACCGCTACCCAGGACACCAGCCTCCAGGACGGCTGCCTCATCTACAACGTCAAGATCAGAGGGGTGAACTTCACATCCAACGGCCCTGTGATGCAGAAGAAAACACTCGGCTGGGAGGCCTTCACCGAGACGCTGTACCCCGCTGACGGCGGCCTGGAAGGCAGAAACGACATGGCCCTGAAGCTCGTGGGCGGGAGCCATCTGATCGCAAACATCAAGACCACATATAGATCCAAGAAACCCGCTAAGAACCTCAAGATGCCTGGCGTCTACTATGTGGACTACAGACTGGAAAGAATCAAGGAGGCCAACAACGAGACCTACGTCGAGCAGCACGAGGTGGCAGTGGCCAGATACTGCGACCTCCCTAGCAAACTGGGGCACAAGCTTAATtaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/component5_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/component6_sequence/">
+    <sbol:displayId>component6_sequence</sbol:displayId>
+    <sbol:elements>TTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCAtaGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGaACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/component6_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://bu.edu/ben/component7_sequence/">
+    <sbol:displayId>component7_sequence</sbol:displayId>
+    <sbol:elements>ACTAGTTATTAATAGTAATCAATTACGGGGTCATTAGTTCATAGCCCATATATGGAGTTCCGCGTTACATAACTTACGGTAAATGGCCCGCCTGGCTGACCGCCCAACGACCCCCGCCCATTGACGTCAATAATGACGTATGTTCCCATAGTAACGCCAATAGGGACTTTCCATTGACGTCAATGGGTGGAgTATTTACGGTAAACTGCCCACTTGGCAGTACATCAAGTGTATCATATGCCAAGTACGCCCCCTATTGACGTCAATGACGGTAAATGGCCCGCCTGGCATTATGCCCAGTACATGACCTTATGGGACTTTCCTACTTGGCAGTACATCTACGTATTAGTCATCGCTATTACCATGGTCGAGGTGAGCCCCACGTTCTGCTTCACTCTCCCCATCTCCCCCCCCTCCCCACCCCCAATTTTGTATTTATTTATTTTTTAATTATTTTGTGCAGCGATGGGGGCGGGGGGGGGGGGGGCGCGCGCCAGGCGGGGCGGGGCGGGGCGAGGGGCGGGGCGGGGCGAGGCGGAaAGGTGCGGCGGCAGCCAATCAGAGCGGCGCGCTCCGAAAGTTTCCTTTTATGGCGAGGCGGCGGCGGCGGCGGCCCTATAAAAAGCGAAGCGCGCGGCGGGCGGGAGTCGCTGCGTTGCCTTCGCCCCGTGCCCCGCTCCGCGCCGCCTCGCGCCGCCCGCCCCGGCTCTGACTGACCGCGTTACTCCCACAGGTGAGCGGGCGGGACGGCCCTTCTCCTCCGGGCTGTAATTAGCGCTTGGTTTAATGACGGCTCGTTTCTTTTCTGTGGCTGCGTGAAAGCCTTAAAGGGCTCCGGGAGGGCCCTTTGTGCGGGGGGGAGCGGCTCGGGGGGTGCGTGCGTGTGTGTGTGCGTGGGGAGCGCCGCGTGCGGCtCCGCGCTGCCCGGCGGCTGTGAGCGCTGCGGGCGCGGCGCGGGGCTTTGTGCGCTCCGCagTGTGCGCGAGGGGAGCGCGGCCGGGGGCGGTGCCCCGCGGTGCGgGGGGGGCTGCGAGGGGAACAAAGGCTGCGTGCGGGGTGTGTGCGTGGGGGGGTGAGCAGGGGGTGTGGGCGCGGCGGTCGGGCTGTAACCCCCCCCTGCACCCCCCTCCCCGAGTTGCTGAGCACGGCCCGGCTTCGGGTGCGGGGCTCCGTaCGGGGCGTGGCGCGGGGCTCGCCGTGCCGGGCGGGGGGTGGCGGCAGGTGGGGGTGCCGGGCGGGGCGGGGCCGCCTCGGGCCGGGGAGGGCTCGGGGGAGGGGCGCGGCGGCCCCcGGAGCGCCGGCGGCTGTCGAGGCGCGGCGAGCCGCAGCCATTGCCTTTTATGGTAATCGTGCGAGAGGGCGCAGGGACTTCCTTTGTCCCAAATCTGtGCGGAGCCGAAATCTGGGAGGCGCCGCCGCACCCCCTCTAGCGGGCGCGGGgCGAAGCGGTGCGGCGCCGGCAGGAAGGAAATGGGCGGGGAGGGCCTTCGTGCGTCGCCGCGCCGCCGTCCCCTTCTCCcTCTCCAGCCTCGGGGCTGtCCGCgGGGGGACGGCTGCCTTCGGGGGGGACGGGGCAGGGCGGGGTTCGGCTTCTGGCGTGTGACCGGCGGCTCTAGAGCCTCTGCTAACCATGTTCATGCCTTCTTCTTTTTCCTACAGCTCCTGGGCAACGTGCTGGTTATTGTGCTGTCTCATCATTTTGGCAAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/component7_sequence"/>
+  </sbol:Sequence>
+  <sbol:ModuleDefinition rdf:about="https://bu.edu/ben/md0/1.0.0">
+    <sbol:displayId>md0</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="https://bu.edu/ben/md0/BW462_pCag_BFP/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/BW462_pCag_BFP"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>BW462_pCag_BFP</sbol:displayId>
+        <sbol:mapsTo>
+          <sbol:MapsTo rdf:about="https://bu.edu/ben/md0/BW462_pCag_BFP/map_mtagBFP/1.0.0">
+            <sbol:displayId>map_mtagBFP</sbol:displayId>
+            <sbol:local rdf:resource="https://bu.edu/ben/md0/mtagBFP/1.0.0"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/md0/BW462_pCag_BFP/map_mtagBFP"/>
+            <sbol:refinement rdf:resource="http://sbols.org/v2#useLocal"/>
+            <sbol:remote rdf:resource="https://bu.edu/ben/BW462_pCag_BFP/component5/"/>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:MapsTo>
+        </sbol:mapsTo>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/md0/BW462_pCag_BFP"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="https://bu.edu/ben/md0/mtagBFP/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/mtagBFP/"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>mtagBFP</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/md0/mtagBFP"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="https://bu.edu/ben/md0/rtTA/1.0.0">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://bu.edu/ben/rtTA/1.0.0"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+        <sbol:displayId>rtTA</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/md0/rtTA"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="https://bu.edu/ben/md0/Non_Covalent_Binding_mtagBFP_rtTA/1.0.0">
+        <sbol:displayId>Non_Covalent_Binding_mtagBFP_rtTA</sbol:displayId>
+        <sbol:participation>
+          <sbol:Participation rdf:about="https://bu.edu/ben/md0/Non_Covalent_Binding_mtagBFP_rtTA/mtagBFP/1.0.0">
+            <sbol:displayId>mtagBFP</sbol:displayId>
+            <sbol:participant rdf:resource="https://bu.edu/ben/md0/mtagBFP/1.0.0"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/md0/Non_Covalent_Binding_mtagBFP_rtTA/mtagBFP"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000644"/>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:participation>
+          <sbol:Participation rdf:about="https://bu.edu/ben/md0/Non_Covalent_Binding_mtagBFP_rtTA/rtTA/1.0.0">
+            <sbol:displayId>rtTA</sbol:displayId>
+            <sbol:participant rdf:resource="https://bu.edu/ben/md0/rtTA/1.0.0"/>
+            <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/md0/Non_Covalent_Binding_mtagBFP_rtTA/rtTA"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000019"/>
+            <sbol:version>1.0.0</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/md0/Non_Covalent_Binding_mtagBFP_rtTA"/>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000177"/>
+        <sbol:version>1.0.0</sbol:version>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/md0"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ModuleDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/mtagBFP/">
+    <dcterms:title>mtagBFP</dcterms:title>
+    <sbol:displayId>mtagBFP</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/mtagBFP"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/component5_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/ori/">
+    <dcterms:title>ori</dcterms:title>
+    <sbol:displayId>ori</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/ori"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+    <sbol:sequence rdf:resource="https://bu.edu/ben/component6_sequence/"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://bu.edu/ben/rtTA/1.0.0">
+    <sbol:displayId>rtTA</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://bu.edu/ben/rtTA"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    <sbol:version>1.0.0</sbol:version>
+  </sbol:ComponentDefinition>
+</rdf:RDF>
