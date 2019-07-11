@@ -4,5 +4,6 @@
 - Install the followin Python modules (with `pip3 install [module name]`): 
   - `ipywidgets` 
   - `requests`
+  - `jupyter_contrib_nbextensions`
 - In the folder with the .ipynb file, run in command line:  
     `jupyter notebook SBOLAnnotations.ipynb`
