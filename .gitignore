@@ -1,0 +1,6 @@
+# Python PyCache Files
+**/__pycache__
+
+# Testing GenBank and SBOL XML Files
+*.gb
+*.xml
