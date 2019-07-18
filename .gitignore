@@ -1,5 +1,6 @@
-# Python PyCache Files
+**/.DS_STORE
 **/__pycache__
+**/.ipynb_checkpoints
 
 # Testing GenBank and SBOL XML Files
 *.gb
