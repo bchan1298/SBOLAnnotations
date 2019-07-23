@@ -27,3 +27,18 @@ def test_successfulAdd():
     assert addedCD.displayId == componentName
     assert addedCD.types[0] == typesMap[componentType]
     assert len(addedCD.roles) == 0
+
+
+def test_addSame():
+    doc = Document() # noqa
+    setHomespace('https://bu.edu/ben') # noqa
+    addedCDs = []
+
+    componentName = 'araC'
+    componentType = 'Protein'
+    componentRole = ''
+
+    addComponent(doc, addedCDs, componentName, componentType, componentRole)
+    addComponent(doc, addedCDs, componentName, componentType, componentRole)
+
+    assert len(doc.componentDefinitions) == 1
