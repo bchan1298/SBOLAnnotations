@@ -8,9 +8,9 @@ componentRoles = ['', 'Miscellaneous', 'Promoter', 'RBS', 'CDS', 'Terminator',
 
 typesMap = {'DNA': 'http://www.biopax.org/release/biopax-level3.owl#DnaRegion',
             'RNA': 'http://www.biopax.org/release/biopax-level3.owl#RnaRegion',
-            'Protein':'http://www.biopax.org/release/biopax-level3.owl#Protein', # noqa
-            'Small Molecule':'http://www.biopax.org/release/biopax-level3.owl#SmallMolecule', # noqa
-            'Complex':'http://www.biopax.org/release/biopax-level3.owl#Complex'} # noqa
+            'Protein': 'http://www.biopax.org/release/biopax-level3.owl#Protein', # noqa
+            'Small Molecule': 'http://www.biopax.org/release/biopax-level3.owl#SmallMolecule', # noqa
+            'Complex': 'http://www.biopax.org/release/biopax-level3.owl#Complex'} # noqa
 
 rolesMap = {'Miscellaneous': 'http://identifiers.org/so/SO:0000001',
             'Promoter': 'http://identifiers.org/so/SO:0000167',
